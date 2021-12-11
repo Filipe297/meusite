@@ -57,7 +57,7 @@ header .icone{
     position: absolute;
     left: 5px;
     top: 10px;
-    background-image: url(../imagens/fcode.png);
+    /* background-image: url(../imagens/icone.png); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -219,7 +219,7 @@ footer .icone{
     position: relative;
     right: -20px;
     display: inline-block;
-    background-image: url(../imagens/fcode.png);
+    /* background-image: url(../imagens/fcode.png); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
