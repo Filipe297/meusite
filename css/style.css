@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,13 +15,14 @@ body{
 
 header {
     width: 100%;
-    padding-bottom: 15px;
     height: auto;
+    padding-bottom: 15px;
+    margin: auto;
     background-color: rgb(8, 114, 235);
 }
 
-main, .conteiner, footer{
-    max-width: 1400px;
+main, .conteiner, footer, header{
+    max-width: 1500px;
 }
 
 /*HEADER*/
@@ -72,19 +73,19 @@ div.aviso{
     border-radius: 20px;
     position: fixed;
     bottom: 200px;
-    right: -300px;
+    left: -300px;
     display: block;
     transition: 1s;
 }
 
 div.aviso .contaviso{
-    width: 100%;
+    width: 100%; 
+    display: none;
     padding: 15px 9% 15px 11%;
     font-size: 15px;
     font-weight: bold;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* padding-top: 15px; */
     height: 100%;
     background-color: rgb(219, 219, 219);
 }
@@ -108,7 +109,6 @@ section.artigos {
     padding: 5px;
     display: flex;
     flex-direction: column;
-    /* background-color: green; */
 }
 
 section.artigos .row{
@@ -130,7 +130,6 @@ section.artigos h2{
     padding: 10px;
     margin-bottom: 30px;
     color: white;
-    /* background-color: blue; */
 }
 
 section.artigos div{
@@ -166,7 +165,7 @@ section.artigos p{
 
 section.artigos div a:hover p{
     transition: 0.2s;
-    color: rgb(255, 255, 255)/*rgb(60, 38, 250)*/;
+    color: rgb(255, 255, 255);
 }
 
 section.artigos div a:hover{
@@ -223,4 +222,34 @@ footer .icone{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* Media screen */
+
+@media screen and (max-width: 642px){
+    section.artigos .row{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 7px;
+    }
+
+    section.artigos div, section.artigos div:first-child, section.artigos div:last-child{
+        width: 90%;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.aviso{
+        width: 48%;
+        height: auto;
+        border-radius: 20px;
+        position: fixed;
+        bottom: 200px;
+        left: -300px;
+        display: block;
+        transition: 1s;
+    }
 }
