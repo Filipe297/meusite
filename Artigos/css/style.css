@@ -176,7 +176,7 @@ footer .icone{
     }
 
     section.artigo p{
-        text-align: center;
+        text-align: center; /*Mudar para ficar melhor no cell*/
     }
 
     section.artigo img{

@@ -1,0 +1,88 @@
+*{
+    outline: none;
+    font-family: Tahoma;
+}
+
+.main .conteiner{
+    background-color: rgb(255, 255, 255);
+}
+
+.texto{
+    width: 60%;
+    padding:0 50px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.texto p:first-child{
+    width: 90%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.texto p:last-child{
+    width: 90%;
+    margin-top: 3px;
+}
+
+.form{
+    width: 60%;
+    height: 75%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.form h2{
+    margin-bottom: 10px;
+}
+
+input,textarea{
+    width: 80%;
+    padding: 2%;
+    border: 1px solid rgb(8, 114, 235);
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+input[type="email"]{
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 13px;
+    background-color: rgb(25, 152, 211);
+    text-align: center;
+    cursor: pointer;
+}
+
+textarea{
+    height: 190px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.texto p{
+    text-align: left;
+}
+
+div.form span{
+    margin-top: 8px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 870px){
+    .texto, .form{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 642px){
+    .texto, .form{
+        width: 100%;
+    }
+}

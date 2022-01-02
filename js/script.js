@@ -24,7 +24,6 @@ $(function(){
             setTimeout(function() {
                 contaviso.css("display","none");
             }, 1000);
-        }, 2000);
-        
+        }, 2000); 
     });
 });
