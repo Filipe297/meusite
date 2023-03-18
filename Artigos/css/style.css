@@ -10,9 +10,9 @@ body, html {
     height: 100%;
 }
 
-body{
+/* body{
     min-height: 200px;
-}
+} */
 
 header {
     width: 100%;
@@ -32,6 +32,7 @@ header .conteiner{
     height: 40px;
     display: block;
     margin: auto;
+    position: relative;
 }
 
 header div{
@@ -69,7 +70,6 @@ header .icone{
 /* main */
 main {
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction:row;
     padding-top: 50px;
@@ -84,8 +84,7 @@ main {
 
 section.artigo{
     width: 100%;
-    height: auto;
-    min-height: 1000px;
+    height: 100%;
     display: inline-block;
     text-align: center;
     background-color: rgb(255, 255, 255);
